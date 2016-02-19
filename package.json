@@ -6,10 +6,8 @@
   "scripts": {
     "test": "tape test/*.js",
     "start": "electron .",
-    "build": "electron-packager . Version --platform=darwin --arch=x64 --version=0.36.7 --out=dist --overwrite",
-    "zip": "zip -rX dist/Version-darwin-x64 dist/Version-darwin-x64/Version.app/",
-    "dist": "npm run build && npm run zip",
-    "clean": "rm -rf dist/*"
+    "build": "bin/build.sh",
+    "clean": "rm -rf build/*"
   },
   "repository": {
     "type": "git",
