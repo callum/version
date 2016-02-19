@@ -18,6 +18,5 @@ app.on('ready', function () {
   tray.on('drop-files', function (event, files) {
     files.forEach(bump)
   })
-  tray.setToolTip('Versioner')
   tray.setContextMenu(contextMenu)
 })
