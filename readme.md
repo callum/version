@@ -4,7 +4,9 @@
 
 Predictable file versioning
 
-Managing files that change over time is tricky work. It’s common to want to maintain different versions of a file at once, but sadly this is far too familiar…
+**Download for Mac OS X: [Version-v0.0.1-darwin-x64.zip](https://github.com/callum/version/releases/download/v0.0.1/Version-v0.0.1-darwin-x64.zip)**
+
+Managing files that change over time is tricky. You often want to maintain different versions of a file at once, but sadly this is far too familiar…
 
 ```
 Proposal.txt
@@ -15,7 +17,7 @@ Proposal 2 copy (William edits).txt
 Proposal ROUND 3.txt
 ```
 
-Even established naming conventions tend to fall flat due to human error. There’s surely a better way.
+Even established naming conventions tend to fall flat as a result of human error, and they're rarely very well thought out.
 
 Version.app aims to make all of this more manageable by enforcing a simple and predictable naming convention that you can forget about.
 
@@ -30,6 +32,6 @@ Proposal_v004.txt
 Proposal_v004.txt
 ```
 
-No matter which file you choose, the app will always determine the next available version for you and will never overwrite an exisiting one.
+No matter which file you choose, the app will always determine the next available version for you and will never overwrite an existing one.
 
-For a command-line alternative, see [https://github.com/callum/version-filename](version-filename)
+For a command-line alternative, see [callum/version-filename](https://github.com/callum/version-filename)
